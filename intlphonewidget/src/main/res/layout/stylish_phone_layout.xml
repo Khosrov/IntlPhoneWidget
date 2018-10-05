@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/phonelayout_default_padding"
+    >
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/asp_phone_widget"
+        android:layout_width="@dimen/spinner_default_width"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        app:layout_constraintEnd_toStartOf="@+id/txtil_phone_widget"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:dropDownWidth="350dp"
+        android:background="@android:color/transparent"
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txtil_phone_widget"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/asp_phone_widget"
+        app:layout_constraintBottom_toBottomOf="@id/asp_phone_widget"
+        android:textColorHint="@color/colorHintHeader"
+        app:hintTextAppearance="@style/CustomHitAppearance"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edt_phone_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:lines="1"
+            android:inputType="phone"
+            android:textColorHint="@color/colorHintText"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+</android.support.constraint.ConstraintLayout>

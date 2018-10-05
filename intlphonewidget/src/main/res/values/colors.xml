@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorHintHeader">#55333333</color>
+    <color name="colorHintText">#11888888</color>
+    <color name="colorLightGrayTint">#FFCCCCCC</color>
+    <color name="colorHintEdiText">#FFFF8888</color>
+</resources>

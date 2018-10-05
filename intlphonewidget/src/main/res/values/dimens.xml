@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_default">24sp</dimen>
+    <dimen name="flag_default_padding_right">1dp</dimen>
+    <dimen name="flag_default_padding">0dp</dimen>
+    <dimen name="spinner_default_width">30dp</dimen>
+    <dimen name="spinner_default_width_composit">60dp</dimen>
+    <dimen name="flag_default_width">30dp</dimen>
+    <dimen name="flag_default_height">20dp</dimen>
+    <dimen name="composit_default_width">35dp</dimen>
+    <dimen name="phonelayout_default_padding">5dp</dimen>
+    <dimen name="spinner_item_default_spacing">5dp</dimen>
+</resources>

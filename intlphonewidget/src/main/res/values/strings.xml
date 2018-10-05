@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IntlPhoneWidget</string>
+    <string name="item_image_contentDescription">Country flag</string>
+    <string name="item_preview_country">France</string>
+    <string name="item_preview_dialCode">+33</string>
+    <string name="item_icon_globe">&#xf0ac;\u0020</string>
+</resources>
