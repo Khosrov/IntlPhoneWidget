@@ -125,6 +125,13 @@ class IntlPhoneLayout : RelativeLayout {
         get() = number
 
     /**
+     * getNationalFormat
+     * @return Local (national) format : ex: France mobile: 0684XXXXXX
+     */
+    fun getNationalFormat() : String{
+        return PhoneNumberUtil.normalizeDigitsOnly(mPhoneEdit?.text.toString())
+    }
+    /**
      * Get PhoneNumber object
      * @return PhonenUmber | null on error
      */
