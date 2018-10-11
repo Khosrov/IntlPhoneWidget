@@ -131,6 +131,16 @@ class IntlPhoneLayout : RelativeLayout {
     fun getNationalFormat() : String{
         return PhoneNumberUtil.normalizeDigitsOnly(mPhoneEdit?.text.toString())
     }
+
+    /**
+     * setPrefix
+     * select a country by prefix
+     */
+    fun setPrefix(prefix:Int) {
+        val countryIdx = mCountries!!.indexOfPrefix(prefix)
+        selectedCountry = mCountries!![countryIdx]
+        mRegionSpinner!!.setSelection(countryIdx)
+    }
     /**
      * Get PhoneNumber object
      * @return PhonenUmber | null on error
